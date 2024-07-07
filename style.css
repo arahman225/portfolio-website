@@ -64,6 +64,7 @@ nav li a{
     background-color: #FD6E0A;
     font-size: 17px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -144,6 +145,7 @@ nav li a{
         font-size: 35px;
         font-weight: 700;
         margin-bottom: 25px;
+        text-align: center;
     }
 
 .section-para{
@@ -204,3 +206,60 @@ nav li a{
     transition: .3s;
 }
 
+.col-my-education{
+    padding: 15px;
+}
+.col-my-education-box{
+    padding: 50px 30px 50px;
+}
+
+.col-my-education-box h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #474747;
+    margin: 18px 0 25px 0;
+    transition: .3s;
+}
+.master-in{
+    padding: 0px 0px 25px;
+}
+
+.master-in h4{
+    font-size: 23px;
+    font-weight: bold;
+    color: #474747;
+    line-height: 2.5rem;
+}
+.footer-bg{
+    background-color: #FFF8F3;
+}
+.col-footer{
+    padding: 25px;
+    flex: 50%;
+}
+
+.col-footer h4{
+    margin-bottom: 25px;
+}
+.col-footer p{
+    margin-bottom: 25px;
+    color: #474747;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  .resume-btn{
+    text-align: center;
+  }
+.text-align{text-align: center;}
